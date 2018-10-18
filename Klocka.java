@@ -7,6 +7,6 @@ public class Klocka {
 	public static void main(String[] arg) {
 		String datumTid = Calendar.getInstance().getTime().toString();
 		int tid = datumTid.indexOf(':'); // Letar första förekomsten av ":" som senare subtraheras med 2
-		JOptionPane.showMessageDialog(null,"Klockan är: " + datumTid.substring(tid - 2, tid + 5));
+		JOptionPane.showMessageDialog(null, "Klockan är: " + datumTid.substring(tid - 2, tid + 6));
 	}
 }
